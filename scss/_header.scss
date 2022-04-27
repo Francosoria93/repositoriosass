@@ -1,0 +1,11 @@
+
+header { background-color: $bg-color-header ;width: auto; padding: 30px; margin: auto
+    ;height: 40px; display: flex; justify-content: space-between;
+    nav { width: 50%; height: 40px; display: flex; background-color: $color-cajas; justify-content: space-around; align-items: center;
+        ul {
+                a { color: $bg-color-header ; display: flex; text-decoration: none;
+                     }                 
+            }
+        }
+        .navegable {color: $color-letra;background-color: rgb(60, 73, 145); width: 50%; display: flex; justify-content: center; align-items: center;}
+    }
